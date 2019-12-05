@@ -3,12 +3,27 @@
 
 <head>
 
+  <!-- COMMON TAGS -->
   <meta charset="utf-8">
+  <title>Jeff Chan</title>
+  <!-- Search Engine -->
+  <meta name="description" content="This is the first page.">
+  <meta name="image" content="https://chankitfu.github.io/startbootstrap-grayscale/img/1.jpg">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="Jeff Chan">
+  <meta itemprop="description" content="This is the first page.">
+  <meta itemprop="image" content="https://chankitfu.github.io/startbootstrap-grayscale/img/1.jpg">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="Jeff Chan">
+  <meta name="og:description" content="This is the first page.">
+  <meta name="og:image" content="https://chankitfu.github.io/startbootstrap-grayscale/img/1.jpg">
+  <meta name="og:url" content="https://chankitfu.github.io/startbootstrap-grayscale/">
+  <meta name="og:site_name" content="Kit Fu">
+  <meta name="og:type" content="website">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Jeff's website</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -157,7 +172,72 @@
         </div>
       </div>
 
+      <style>
+          .project-slider {
+            height: 100%;
+            min-height: 400px;
+          }
+          .project-slider .slick-list,
+          .project-slider .slick-track,
+          .project-slider .slick-slide,
+          .project-slider .slick-slide > div {
+            height: 100%;
+          }
+          .project-slider .image-bg {
+            height: 100%;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        </style>
+
       <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+            <div class="slider project-slider">
+                <div class="image-bg" style="background-image: url(img/slider/2.jpg);"></div>
+                <div class="image-bg" style="background-image: url(img/slider/5.jpg);"></div>
+                <div class="image-bg" style="background-image: url(img/slider/4.jpg);"></div>
+              </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Misty</h4>
+                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
+                  along with a description.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+              <div class="slider project-slider">
+                  <div class="image-bg" style="background-image: url(img/slider/2.jpg);"></div>
+                  <div class="image-bg" style="background-image: url(img/slider/5.jpg);"></div>
+                  <div class="image-bg" style="background-image: url(img/slider/4.jpg);"></div>
+                </div>
+          </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Mountains</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
+                  sections work well responsively as well, try this theme on a small screen!</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
@@ -176,7 +256,7 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
+      <!-- Project Four Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
@@ -212,6 +292,19 @@
               placeholder="Enter email address...">
             <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
           </form>
+
+
+          <style>
+            #google-form {
+              width: 100%;
+              margin-top: 50px;
+            }
+          </style>
+
+          <iframe
+            id="google-form"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeN2DB585LvR2OpqMfNwgt94cbs4NhOwdTRkqxjeCLWS4lz7A/viewform?embedded=true"
+            height="493" frameborder="0" marginheight="0" marginwidth="0">正在載入…</iframe>
 
         </div>
       </div>
